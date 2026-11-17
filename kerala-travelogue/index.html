@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kerala, Slowly | A Travelogue</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Young+Serif&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a href="#top" class="brand">Kerala, slowly</a>
+  <button class="menu-btn" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+  <nav id="nav">
+    <a href="#stops">Stops</a>
+    <a href="#journal">Journal</a>
+    <a href="#eat">Eat</a>
+    <a href="#gallery">Photos</a>
+    <a href="#tips">Before you go</a>
+  </nav>
+</header>
+
+<main id="top">
+
+<section class="hero">
+  <h1>Nine days, five stops,<br>one very long monsoon.</h1>
+  <p class="lead">A travelogue from the hills of Munnar down to the cliffs of Varkala, written between boat rides, bus stops and cups of tea.</p>
+  <a class="btn" href="#journal">Read the journal</a>
+
+  <ol class="route" aria-label="Route">
+    <li><b>Kochi</b><span>Fort, fishing nets</span></li>
+    <li><b>Munnar</b><span>Tea hills, 1,600 m</span></li>
+    <li><b>Thekkady</b><span>Spice farms, forest</span></li>
+    <li><b>Alleppey</b><span>Backwaters, houseboat</span></li>
+    <li><b>Varkala</b><span>Cliff, sea, sunset</span></li>
+  </ol>
+</section>
+
+<div class="wave" aria-hidden="true"></div>
+
+<section class="block" id="stops">
+  <div class="head">
+    <h2>Where we stopped</h2>
+    <p>Pick a kind of place to see the stops that fit it.</p>
+  </div>
+
+  <div class="tabs" role="tablist">
+    <button class="tab active" data-filter="all">All</button>
+    <button class="tab" data-filter="hills">Hills</button>
+    <button class="tab" data-filter="water">Water</button>
+    <button class="tab" data-filter="city">Heritage</button>
+  </div>
+
+  <div class="stops">
+    <article class="stop" data-type="city">
+      <div class="photo p-kochi" style="--img:url(images/kochi.jpg),url(images/kochi.svg)"></div>
+      <div class="body">
+        <h3>Fort Kochi</h3>
+        <p>Cantilevered Chinese fishing nets, a Dutch palace and lanes full of small galleries. Best walked, not driven.</p>
+        <small>Heritage · Day 1</small>
+      </div>
+    </article>
+    <article class="stop" data-type="hills">
+      <div class="photo p-munnar" style="--img:url(images/munnar.jpg),url(images/munnar.svg)"></div>
+      <div class="body">
+        <h3>Munnar</h3>
+        <p>Tea estates that look combed into the hillside, cloud rolling through at noon and a cold morning at Mattupetty.</p>
+        <small>Hills · Days 2–3</small>
+      </div>
+    </article>
+    <article class="stop" data-type="hills">
+      <div class="photo p-thekkady" style="--img:url(images/thekkady.jpg),url(images/thekkady.svg)"></div>
+      <div class="body">
+        <h3>Thekkady</h3>
+        <p>Cardamom and pepper farms, a boat on Periyar Lake and a dawn forest walk with a guide who knew every bird.</p>
+        <small>Hills · Days 4–5</small>
+      </div>
+    </article>
+    <article class="stop" data-type="water">
+      <div class="photo p-alleppey" style="--img:url(images/alleppey.jpg),url(images/alleppey.svg)"></div>
+      <div class="body">
+        <h3>Alleppey</h3>
+        <p>A night on a houseboat through Vembanad's canals, with fish curry cooked on board and nothing to do but watch.</p>
+        <small>Water · Days 6–7</small>
+      </div>
+    </article>
+    <article class="stop" data-type="water">
+      <div class="photo p-varkala" style="--img:url(images/varkala.jpg),url(images/varkala.svg)"></div>
+      <div class="body">
+        <h3>Varkala</h3>
+        <p>A red cliff above the Arabian Sea, small cafés along the edge and a beach that empties out by evening.</p>
+        <small>Water · Days 8–9</small>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="block dark" id="journal">
+  <div class="head">
+    <h2>From the notebook</h2>
+    <p>Short entries, in the order they happened.</p>
+  </div>
+
+  <div class="entries">
+    <article class="entry">
+      <time>Day 1</time>
+      <div>
+        <h3>The nets at dusk</h3>
+        <p>We reached Fort Kochi after dark and walked straight to the water. The fishermen were hauling the nets by hand, slowly, as they have for centuries. A man selling roasted peanuts told us the best light is just before the lamps come on.</p>
+      </div>
+    </article>
+    <article class="entry">
+      <time>Day 3</time>
+      <div>
+        <h3>Tea, and a wrong turn</h3>
+        <p>The bus to Top Station was late, so we walked part of it through the estates. Pickers in plastic aprons waved from the slopes. Our wrong turn ended at a tiny shop selling tea so fresh it was still warm to smell.</p>
+      </div>
+    </article>
+    <article class="entry">
+      <time>Day 5</time>
+      <div>
+        <h3>Inside the spice farm</h3>
+        <p>Cardamom grows on the ground, not on trees, which surprised everyone. The farmer crushed a pod in my palm and told me to keep it for the road. It is still in my bag.</p>
+      </div>
+    </article>
+    <article class="entry">
+      <time>Day 6</time>
+      <div>
+        <h3>Eleven hours on a houseboat</h3>
+        <p>No signal, no schedule. Kingfishers, coconut palms, kids waving from canoes on the way to school. Dinner was karimeen fried in a pan on the back deck while the sun went down behind the paddy fields.</p>
+      </div>
+    </article>
+    <article class="entry">
+      <time>Day 8</time>
+      <div>
+        <h3>The last sunset</h3>
+        <p>Varkala was the quietest stop. We sat on the cliff path, shared a coconut and said very little. The sea was loud enough for all of us.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="block" id="eat">
+  <div class="head">
+    <h2>What we ate</h2>
+    <p>The meals that deserved a photo.</p>
+  </div>
+  <ul class="eat">
+    <li><b>Appam and stew</b> Lacy rice pancakes with coconut milk stew, a Kochi breakfast.</li>
+    <li><b>Sadya on a banana leaf</b> More than twenty dishes, eaten with your hands.</li>
+    <li><b>Karimeen pollichathu</b> Pearl spot fish wrapped in leaf and pan-roasted in Alleppey.</li>
+    <li><b>Puttu and kadala</b> Steamed rice and coconut cylinders with black chickpea curry.</li>
+    <li><b>Kappa and fish curry</b> Tapioca with red fish curry, best at a toddy shop.</li>
+    <li><b>Spiced tea</b> Hot, sweet and everywhere in the hills.</li>
+  </ul>
+</section>
+
+<section class="gallery" id="gallery" aria-label="Photo wall">
+  <figure class="g1"><div style="--img:url(images/munnar.jpg),url(images/munnar.svg)"></div><figcaption>Mist over the tea rows, Munnar</figcaption></figure>
+  <figure class="g2"><div style="--img:url(images/alleppey.jpg),url(images/alleppey.svg)"></div><figcaption>Our houseboat, Alleppey</figcaption></figure>
+  <figure class="g3"><div style="--img:url(images/varkala.jpg),url(images/varkala.svg)"></div><figcaption>Last light, Varkala</figcaption></figure>
+  <figure class="g4"><div style="--img:url(images/kochi.jpg),url(images/kochi.svg)"></div><figcaption>The nets, Fort Kochi</figcaption></figure>
+  <figure class="g5"><div style="--img:url(images/thekkady.jpg),url(images/thekkady.svg)"></div><figcaption>Periyar Lake at dawn</figcaption></figure>
+</section>
+
+<section class="block tint" id="tips">
+  <div class="head">
+    <h2>Before you go</h2>
+    <p>What we would tell a friend.</p>
+  </div>
+  <div class="tips">
+    <div><h3>Best time</h3><p>October to March is dry and cool. June to August is lush and wet, and the houseboats get cheaper.</p></div>
+    <div><h3>Getting around</h3><p>Trains link Kochi, Alleppey and Varkala. Take a taxi or a state bus for the hill sections.</p></div>
+    <div><h3>What to pack</h3><p>A light rain jacket, a warm layer for Munnar, mosquito repellent and a small day bag.</p></div>
+    <div><h3>Book ahead</h3><p>Houseboats and Periyar boat rides sell out in peak season. Reserve both before you arrive.</p></div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <a href="#top" class="brand">Kerala, slowly</a>
+  <p>Written and photographed by Abin Jimmy · 2026</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
